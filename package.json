@@ -1,0 +1,27 @@
+{
+    "name": "part4exercises",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js",
+        "dev": "nodemon index.js",
+        "lint": "eslint .",
+        "save": "git add . && git commit -m '' && git push"
+    },
+    "author": "Pierre Lam",
+    "license": "MIT",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "mongodb": "^6.5.0",
+        "mongoose": "^8.3.1",
+        "nodemon": "^3.1.0"
+    },
+    "devDependencies": {
+        "@stylistic/eslint-plugin-js": "^1.7.2",
+        "eslint": "^9.0.0"
+    }
+}
